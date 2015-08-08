@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="example.js"></script>
+  </head>
+  <body>
+
+     <div id="yo">
+       <!-- in this simple example, the results will go in this div as json. -->
+       <ul id="results">
+         <li>Hello</li>
+       </ul>
+     </div>
+
+     <!-- we never show a map but it looks like the api call needs an instance in memory 
+     at least and that seems to need to be passed an element to construct it -->
+     <div id="map"></div>
+    
+  </body>
+</html>

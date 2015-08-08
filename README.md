@@ -1,0 +1,1 @@
+To try, clone the repo cd into the folder and do python -m SimpleHTTPServer. Then open http://localhost:8000 in your browser.
